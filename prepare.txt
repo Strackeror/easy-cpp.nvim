@@ -1,0 +1,19 @@
+-Functions that eliminates repetitions
+-Prefer questions to manual writing
+-Getters and Setters in Classes
+-Namespaces in functions/method definitions
+-Changing return values
+-Creation of a class (with canonical form?)
+-Documentation of code
+-Replacment of variables
+-Inclusion of a personal header
+-etc..
+
+Most needed functionalities:
+
+-construction of a basic class with a pattern which can be modified in a file
+-generation of getters and setters related to the protected and privates attributes (selection of the corresponding line with enter on each line, or multiple line while keeping a key)
+-basic .cpp code corresponding to the header file;
+-creation of basic Interfaces.
+-auto update functions corresponding to the header's modifications.
+-one big folder of config file (or even a GUI to configure that?)
