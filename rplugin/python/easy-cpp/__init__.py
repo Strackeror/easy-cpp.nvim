@@ -1,3 +1,4 @@
+import os
 import neovim
 
 @neovim.plugin
@@ -7,4 +8,5 @@ class Easy(object):
 
     @neovim.command('Test')
     def test(self):
-        self.vim.command('vsplit')
+        name = os.path.splitext(self.vim.current.buffer.name)[0]
+        self.vim.command("vsplit " + name + ".cpp")
